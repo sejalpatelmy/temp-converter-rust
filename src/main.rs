@@ -10,7 +10,7 @@ fn main() {
     let degree: f64 = degree.trim().parse().expect("please enter valid number");
 
     println!("number entered is {}",degree);
-    println!("number is correct")
+    println!("number is correct");
     println!("converting it to degree celcius {} to farenhit ", degree);
    let far: i32 = degree  * 1.8 + 32;
     
